@@ -7,3 +7,8 @@
 //   }
 //   $('#foreground').fadeOut(interval);
 // }
+
+let saveButton = document.querySelector('button')
+let zombie = document.querySelector("#foreground")
+
+saveButton.onclick = () => alert('clicked')
